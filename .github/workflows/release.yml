@@ -26,6 +26,8 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           mv dist openapi-variable-provider-plugin
           zip -r openapi-variable-provider-plugin.zip openapi-variable-provider-plugin
