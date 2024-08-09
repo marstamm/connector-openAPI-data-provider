@@ -1,6 +1,6 @@
 # openapi-variable-provider
 
-A variable provider that extracts variables from a openAPI endpoint element.
+A Variable provider that extracts openAPI responses for connectors based on the `camunda:http-json` connector.
 This Module includes a variable provider and a [properties panel](https://github.com/bpmn-io/bpmn-js-properties-panel) extension.
 
 ## Usage
